@@ -1,0 +1,25 @@
+.welcome{
+    width: 100vw;
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: #55198b;
+}
+
+
+.welcome__content img{
+    width: 200px;
+    height: auto;
+    animation: rotation 2s infinite linear;
+}
+
+
+@keyframes rotation {
+    from {
+      transform: rotate(0deg);
+    }
+    to {
+      transform: rotate(359deg);
+    }
+  }

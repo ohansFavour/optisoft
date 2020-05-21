@@ -1,0 +1,26 @@
+.homePage{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.homePage__heading img{
+    width: 60px;
+    height: auto;
+    display: inline-block;
+}
+
+.homePage__heading{
+    font-size: 3em;
+    width: 50%;
+    margin: 20px auto;
+    text-align: center;
+}
+
+@media  screen and (max-width: 900px){
+    .homePage__heading{
+        width: 90%;
+        font-size: 2.5em;
+    } 
+}
